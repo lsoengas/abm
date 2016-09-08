@@ -1,0 +1,103 @@
+/* Class de define en .css con .xxx y id con #xxx la diferencia entre uno y otro es que
+el id es unico y no se puede repetir y la calse es global*/
+html{
+  background-color:#F0FFFF;
+}
+
+#login {
+
+margin: auto;
+background:#1c95e6;
+height: 200px;
+width: 390px;
+border-radius: 61px 67px 0px 67px;
+-moz-border-radius: 61px 67px 0px 67px;
+-webkit-border-radius: 61px 67px 0px 67px;
+border: 25px solid #4eb9bd;
+-webkit-box-shadow: 26px 28px 5px -4px rgba(0,0,0,0.43);
+-moz-box-shadow: 26px 28px 5px -4px rgba(0,0,0,0.43);
+box-shadow: 26px 28px 5px -4px rgba(0,0,0,0.43);
+border: 5px solid #4eb9bd;
+-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+animation: mymove 5s infinite;
+
+}
+
+.iniSecion {
+  background-color:#4769CC;
+  color: #FFF;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+  webkit-animation: mymove 5s infinite;
+}
+
+.iniSecion:hover {
+  background-color:	#F0F8FF;
+  color: #4769CC;
+}
+
+input:focus {
+    background-color:#FFF;
+    text-decoration:
+}
+
+table{
+    border: 0.5px solid #00FFFF;
+
+}
+
+thead{
+
+  background-color:#00FFFF;
+}
+
+#msgError {
+
+
+background:#1c95e6;
+height: 10;
+width: 200px;
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 3px solid #4eb9bd;
+
+
+}
+
+.modal-container{
+  position:fixed;
+ background-color:#fff;
+ border:solid 1px #ccc;
+ left:50%;
+ transform:translate(-50%, -200%);
+  -webkit-transform:translate(-50%, -200%);
+   -ms-transform:translate(-50%, -200%);
+   padding:20px;
+   width:70%;
+   max-width:400px;   
+   transition:transform 200ms ease-out;
+   -webkit-transition:transform 200ms ease-out; 
+}
+
+.modal:before{
+  content:"";
+  background-color:rgba(0, 0, 0, 0.5);
+  display:none;
+  position:fixed;
+  height:100%;
+  left:0;
+  top:0;
+  width:100%;
+}
+
+.modal:target:before{
+  display:block;   
+}
+
+.modal:target .modal-container{
+  transform:translate(-50%, 0);
+  -webkit-transform:translate(-50%, 0);
+   -ms-transform:translate(-50%, 0);
+}

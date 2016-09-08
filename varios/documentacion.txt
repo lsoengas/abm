@@ -1,0 +1,16 @@
+http://www.sitio.com/directorio/subdirectorio/script.php?varA=valorA&varB=valorB
+
+http://
+
+www.sitio.com
+
+/directorio
+
+/subdirectorio
+
+/script.php
+
+?varA=valorA&varB=valorB
+
+	varA = valorA
+	varB = valorB
