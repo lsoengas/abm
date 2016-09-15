@@ -37,7 +37,7 @@
   <body>
 
       <ul class="nav nav-tabs">
-        <li role="presentation" ><a href="#">Usuarios</a></li>
+        <li role="presentation" ><a href="users.php">Usuarios</a></li>
         <li role="presentation" ><a href="systemDetail.php">Detalles del Sistema</a></li>
         <li role="presentation" ><a href="#">Agregar Usuarios</a></li>
         <li role="presentation"><a href="logout.php">Cerrar Sesion</a></li>

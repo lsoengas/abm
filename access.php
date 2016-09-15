@@ -1,7 +1,8 @@
 <?php 
 	session_start();
 
-	include_once 'functions.php';
+	//include_once 'functions.php';
+	include_once 'sql.php';
 	$name=$_REQUEST["user"];
 	$pass=$_REQUEST["pass"];	
 	$session=$_REQUEST["session"];
